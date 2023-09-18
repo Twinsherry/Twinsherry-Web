@@ -1,0 +1,13 @@
+p{
+  @font-face {
+    font-family: "NotoSansCJKsc";
+    src: url("./fonts/NotoSansCJKsc-Light.otf");
+  }
+}
+.box0{
+    color: #704214;
+}
+.box1{
+    background-color: antiquewhite;
+    color: #704214;
+}
