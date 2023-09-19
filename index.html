@@ -2,7 +2,10 @@
 <html>
   <head>
       <title> Twinsherry Alpha1.0 </title>
+      <!-- css库 -->
       <link rel="stylesheet" href="./css/style.css">
+      <!-- 动画库 -->
+      <link rel="stylesheet" href="./css/animate.css">
   </head>
   <body>
     <!-- images  -->
@@ -16,9 +19,11 @@
         </div>
     <!-- alt + shift + ↓ to Copy -->
       <br>
-      <p>
-        提示：本页面仅仅是个测试页面，用来进行各种各样的练习。
-      </p>
+      <div class="box2">
+        <p>
+          提示：本页面仅仅是个测试页面，用来进行各种各样的练习。
+        </p>
+      </div>
       <h2> Profile </h2>
         <p>
           Nice to see you, here is a <strong> normal </strong> girl who is struggling to make herself uncommon.
@@ -58,17 +63,20 @@
       <h2> Idol of Spirit </h2>
       <!-- lists -->
       <!-- 无序列表：ul+li 有序列表 ol+li -->
-      <ul>
+      <div class="list1">
+        <ul>
           <li> <a href="https://weibo.com/luttefair" target="_blank">Luttefair</a> </li>
           <li> Mysterious Sister </li>
           <li> <a href="https://github.com/Catoverflow" target="_blank">Catoverflow</a></li>
-      </ul>
+        </ul>
+      </div>
       <!-- 以下为测试区域 -->
       <hr> <!-- 画一条水平线 -->
       <!-- Table -->
       <!-- table thead tr th  -->
       <!-- tbody tr td  -->
-      <table>
+
+      <!-- <table>
         <thead>
           <tr>
             <th> First Name </th>
@@ -85,12 +93,15 @@
             <td> 13 Forever </td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
+
       <br>
       <br> <!-- 分割一定长度，比较好的方法是使用CSS的margin -->
       <!-- Forms  -->
       <!-- <form action="form.js" method="POST"></form> -->
         <!-- html是不处理逻辑问题的，这些将会提交给后端处理。 -->
+
+        <!-- 以下是为提交和按钮的练习 -->
       <form>
           <div>
               <label> 提交您的留言 </label>
@@ -106,10 +117,21 @@
           </div>
           <input type="submit" name="submit" value="submit">
       </form>
-      <button> This is a button</button>
+      <button>   </button>
       <p>
         <cite> 希望我们都能去做想做的事，成为想成为的样子！</cite> by Hikari Sakurai
       </p>
+      <!-- block区域 -->
+      <div class="block">
+        <p>
+          这是一段内容。
+        </p>
+      </div>
+      <!-- <div class="position-box">
+        <h1> heading1 </h1>
+        <h2> heading2 </h2>
+      </div> -->
+      <button id="fixed"> 按一下 </button>
   </body>
 </html>
  

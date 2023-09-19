@@ -1,13 +1,92 @@
-p{
   @font-face {
+    /* 自定义字体名 */
     font-family: "NotoSansCJKsc";
-    src: url("./fonts/NotoSansCJKsc-Light.otf");
+    /* 规定字体引入的资源路径 */
+    src: url("./fonts/NotoSansCJKsc-Regular.otf");
   }
+
+  @font-face {
+    /* 自定义字体名 */
+    font-family: "Kazesawa";
+    /* 规定字体引入的资源路径 */
+    src: url("./fonts/Kazesawa-Regular");
+  }
+
+body{
+  background-color: 	#FAF0E6;
+  line-height: 1.5em;
+}
+
+p{
+  font-family:"NotoSansCJKsc","Kazesawa";
+  width: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin: 5px 10px 5px 10px ; 顺时针等价*/
+}
+  
+h2{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .box0{
     color: #704214;
 }
+
 .box1{
     background-color: antiquewhite;
+    width: auto;
     color: #704214;
+    font-family: "NotoSansCJKsc";
+
+}
+
+.box2{
+  border: 1px #704214 dotted;
+  /* border-radius: 1px; 用于表示圆角*/
+}
+
+.list1 li{
+  margin-left:3px;
+  list-style: square;
+  /* list-style-image: url("") ; 用来替换无序list前标识*/
+}
+
+button{
+  width: auto;
+  height: auto;
+  background-image: url("../images/github-mark-white.png");
+  padding: 10px 20px;
+  border: none;
+}
+
+button:hover{
+  background-color: #DDAACC;
+}
+
+button:active{
+  background-color: bisque;
+
+}
+
+.block{
+  float: right;
+  width: 33.3%;
+  border: 1px solid #DDAACC
+}
+
+/* .position-box{
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+} */
+
+#fixed{
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
