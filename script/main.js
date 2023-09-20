@@ -49,6 +49,6 @@ console.log("味道被清理掉了！");
 
 console.log(0 == false); 
 console.log(0 != false);
-console.log(0 !== false);
+console.log(0 !== false);   //不转换
 console.log(0 === false);
 
