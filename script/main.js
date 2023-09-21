@@ -52,3 +52,54 @@ console.log(0 != false);
 console.log(0 !== false);   //不转换
 console.log(0 === false);
 
+// 控制结构
+// if
+var x = "Hikari";
+var y = "Tairitsu";
+
+if (x == "Hikari" && y == "Tairitsu"){
+  console.log("光与对立，回忆与歌");
+} else {
+  console.log("创造一个没有对立的世界");
+}
+
+if (x == "Hikari" && y == "Tairitsu"){
+  console.log("光与对立，回忆与歌");
+} else if (x=="光" && y == "对立"){
+  console.log("欢迎来到arcaea的世界");
+} else {
+  console.log("无音的调和");
+}
+// while在JavaScript中不常用
+
+// while(){
+// }
+
+// do while
+
+var fen = 1919810; 
+var n = 114514;
+
+// do{
+//   n = n + 16;
+//   console.log(n);
+// } while (fen > n);
+//   console.log(n+"啊啊啊啊啊啊啊啊");
+
+// var & let 作用域 var没有作用域，可以任意访问，代码块里的也可以访问，代码块里的let无法被外部访问
+// 多使用let，var用完不会释放而占据内存
+
+// for
+
+var HJ = 1;
+for(let qd =0; qd<5; qd++){
+  HJ++;
+  console.log(HJ);
+}
+
+// 三目表达式
+var age = 16;
+
+var allowed = (age >=18) ? "Yes" : "No";
+
+console.log(allowed);
